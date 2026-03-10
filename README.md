@@ -3,6 +3,7 @@
 Projeto simples de Jogo da Velha desenvolvido utilizando **HTML, CSS e JavaScript**.
 
  📌 Sobre o projeto
+
 Este projeto foi criado para praticar conceitos básicos de desenvolvimento web, como:
 - Manipulação do DOM
 - Eventos em JavaScript
