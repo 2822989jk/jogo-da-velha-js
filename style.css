@@ -15,9 +15,9 @@ body {
 
 
 .principal {
-  display: flex; /* Layout lado a lado */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: flex-start; /* Alinha ao topo */
+  display: flex; 
+  justify-content: center; 
+  align-items: flex-start; 
   gap: 40px; 
   margin: 40px auto; 
   flex-wrap: wrap; 
@@ -116,4 +116,5 @@ button:hover {
     align-items: center;
   }
 }
+
 
