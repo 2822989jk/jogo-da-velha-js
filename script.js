@@ -16,9 +16,8 @@ const mensagem = document.getElementById("mensagem");
 
 celulas.forEach(celula => {
   celula.addEventListener("click", () => {
-    const index = celula.dataset.index; // Pega o índice da célula clicada
+    const index = celula.dataset.index; 
 
-    // Só permite jogar se a célula estiver vazia e o jogo não tiver acabado
     if (tabuleiro[index] === "" && !fimDeJogo) {
       tabuleiro[index] = jogadorAtual; 
       celula.textContent = jogadorAtual; 
@@ -41,12 +40,12 @@ celulas.forEach(celula => {
   });
 });
 
-// Função que verifica todas as combinações vencedoras
+
 function verificarVencedor() {
   const combinacoes = [
-    [0,1,2], [3,4,5], [6,7,8], // Linhas
-    [0,3,6], [1,4,7], [2,5,8], // Colunas
-    [0,4,8], [2,4,6]           // Diagonais
+    [0,1,2], [3,4,5], [6,7,8], 
+    [0,3,6], [1,4,7], [2,5,8], 
+    [0,4,8], [2,4,6]          
   ];
 
 
@@ -84,4 +83,5 @@ function reiniciar() {
   
   mensagem.textContent = "";
 }
+
 
