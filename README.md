@@ -1,25 +1,26 @@
-# Jogo da Velha
+🎮 Jogo da Velha
 
-Projeto simples de Jogo da Velha desenvolvido com HTML, CSS e JavaScript.
+Projeto simples de Jogo da Velha desenvolvido utilizando **HTML, CSS e JavaScript**.
 
-## Funcionalidades
+ 📌 Sobre o projeto
+Este projeto foi criado para praticar conceitos básicos de desenvolvimento web, como:
+- Manipulação do DOM
+- Eventos em JavaScript
+- Lógica de jogo
+- Estruturação com HTML e CSS
 
-- Dois jogadores (X e O)
-- Verificação automática de vitória
-- Empate automático
-- Botão para reiniciar a partida
-
-## Tecnologias utilizadas
-
-- HTML
-- CSS
+🚀 Tecnologias utilizadas
+- HTML5
+- CSS3
 - JavaScript
 
-## Objetivo
+🎯 Funcionalidades
+- Dois jogadores
+- Verificação automática de vitória
+- Reinício do jogo
 
-Praticar lógica de programação e manipulação do DOM utilizando JavaScript.
+▶️ Como executar o projeto
+1. Baixe ou clone este repositório
+2. Abra o arquivo `index.html` no navegador
 
-## Como executar
-
-1. Baixe o projeto
-2. Abra o arquivo index.html no navegador
+Ou acesse diretamente pelo navegador: https://2822989jk.github.io/jogo-da-velha-js/
